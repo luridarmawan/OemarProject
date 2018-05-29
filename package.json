@@ -1,0 +1,27 @@
+{
+  "name": "oemarproject",
+  "version": "1.0.0",
+  "description": "Smart bot untuk mengingatkan ibadah",
+  "main": "index.js",
+  "scripts": {
+    "test": "tes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitacitrap/OemarProject.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Gita Citra Puspita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitacitrap/OemarProject/issues"
+  },
+  "homepage": "https://github.com/gitacitrap/OemarProject#readme",
+  "dependencies": {
+    "dbot-js": "^1.0.2",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.87.0"
+  }
+}
