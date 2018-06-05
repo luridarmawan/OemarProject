@@ -5,9 +5,10 @@ const emoji = require('node-emoji');
 
 // replace the value below with the Telegram token you receive from @BotFather
 const token = '508931900:AAGp4iKP1DTqdvBjBTqq7C8pU8UKS43ml50';
-
+var port = process.env.PORT || 8443;
+var host = process.env.HOST;
 // Create a bot that uses 'polling' to fetch new updates
-const bot = new TelegramBot(token, {polling: true});
+const bot = new TelegramBot(token, {webHook: {port: port, host: host}});
 
 bot.on('message', (msg) => {
 	const chatId = msg.chat.id;
