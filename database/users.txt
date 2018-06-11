@@ -1,0 +1,1 @@
+[{"chat_id":382611801,"step":5,"gender":"female","nickname":"umi"},{"chat_id":382611800,"step":5,"gender":"male","nickname":"abi"},{"chat_id":382611804,"step":6,"gender":"perempuan","nickname":"umi"},{"chat_id":382611803,"step":6,"gender":"perempuan","nickname":"umi"}]
